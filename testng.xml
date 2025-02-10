@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="1">
+    <test verbose="2" preserve-order="true" name="Chrome">
+        <classes>
+            <class name="Guru99Page.TC01_DragAndDrop"></class>
+            <class name="Guru99Page.TC02_CheckDoubleClickButton"></class>
+            <class name="Guru99Page.TC03_CheckRightClickButton"></class>
+            <class name="Guru99Page.TC04_CheckCookie"></class>
+<!--            <class name="assignment5.Ex1">-->
+<!--                <methods>-->
+<!--                    <include name="dragAndDrop"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="assignment5.Ex2">-->
+<!--                <methods>-->
+<!--                    <include name="ex2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="assignment5.Ex3">-->
+<!--                <methods>-->
+<!--                    <include name="ex3"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="assignment5.Ex4">-->
+<!--                <methods>-->
+<!--                    <include name="ex4"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
